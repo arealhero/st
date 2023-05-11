@@ -1252,7 +1252,7 @@ xinit(int cols, int rows)
 	if (xsel.xtarget == None)
 		xsel.xtarget = XA_STRING;
 
-	fullscreen(NULL);
+	/* fullscreen(NULL); */
 }
 
 int
